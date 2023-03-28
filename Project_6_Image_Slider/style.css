@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.silde-container{
+    position: relative;
+    width: 100%;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.next{
+    right: 10px;
+}
+
+.prev{
+    left: 10px;
+}
+
+.caption{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.581);
+    padding: 12px;
+}
+
+.slide{
+    display:none;
+}
+img {
+    width: 190px;
+    height: 725px;
+    object-fit: fill;
+  }
